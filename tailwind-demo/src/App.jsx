@@ -54,6 +54,23 @@ function App() {
         <p className="text-gray-700">This is a simple card built with Tailwind CSS</p>
         <button className="px-6 py-2 m-4 bg-blue-400 text-white rounded-lg hover:bg-blue-700 transition duration-300">Read More</button>
       </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+        <div className="bg-blue-300 p-4">1</div>
+        <div className="bg-blue-300 p-4">2</div>
+        <div className="bg-blue-300 p-4">3</div>
+        <div className="bg-blue-300 p-4">4</div>
+      </div>
+      <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl m-4">I scale on different screens</p>
+      <p className="text-red-600 sm:text-blue-600 md:text-emerald-600 lg:text-yellow-500 xl:text-purple-600 m-4">Resize the screen to see the changes.</p>
+      <div className="bg-[#ff5733] h-[165px] w-[300px] border-green-600 p-4  m-4 rounded-lg m-4 flex items-center justify-center">
+        Custom width, height and color
+      </div>
+      <div className="bg-yomex-500 h-[165px] w-[300px] border-green-600 p-4  m-4 rounded-lg m-4 flex items-center justify-center">
+        Theme Variables
+      </div>
+    <div className="bg-primary font-display h-[165px] w-[300px] border-green-600 p-4 rounded-lg m-4 flex items-center justify-center">
+        Font family and Color Variables
+      </div>
     </>
   )
 };

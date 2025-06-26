@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5abb3d28-758a-4733-bb2b-d1aa7df165f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/AestheticSummerCat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/BMW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/BeWild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Boo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/BreakingCode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Butterfly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Chai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/CoolAstraunaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/EatSleepCode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/EvilEye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/EwFeelings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/F1Car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/GameOfthoresSymbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/GameOver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Gohan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Goku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/HappySoul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/HouseOfTheDragonSymbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/IWon_tHesitateSticker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/IamOkay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/KnightKing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/LazyCat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Mbappe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Messi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/MyDrivingScaresMeToo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Naruto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/OverThinker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/REBike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/RideOrDie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Shinchan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/SneakyCat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/SociallyAwkward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/SpaceWalk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/SquidGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/Virat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/YestoAdventures.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/YourOpinonMeansNothing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/break.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/developer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/emptycart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/itsnotabug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/ronaldo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/assets/stickers/youaremycss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/PageHeading.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/PageTitle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/Price.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/ProductCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/ProductListings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/components/footer/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/data/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eazystore-ui/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2ykXmcGwiJxU48BjjMIxjapf5VH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Vehicle.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5abb3d28-758a-4733-bb2b-d1aa7df165f3" name="Changes" comment="" />
+      <created>1750379708709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750379708709</updated>
+      <workItem from="1750379714400" duration="1415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

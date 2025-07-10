@@ -12,7 +12,7 @@ export default function ProductListings({products}) {
             <ProductCard key={product.productId} product={product} />  
           ))
         ) : (
-          <p className='text-center font-primary font-bold text-lg text-primary'>No product found</p>
+          <p className='font-primary font-bold text-lg text-primary text-center'>No product found</p>
         )}
       </div>
     </div>

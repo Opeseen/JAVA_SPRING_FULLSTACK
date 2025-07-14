@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export default function Price({currency, price}) {
+export default function Price({ currency, price }) {
   return (
     <>
-    {currency}
-    <span>{price}</span>
+      {currency}
+      <span>{price}</span>
     </>
-  )
+  );
 }

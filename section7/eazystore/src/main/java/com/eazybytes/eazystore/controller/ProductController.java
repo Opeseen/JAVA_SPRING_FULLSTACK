@@ -20,6 +20,7 @@ public class ProductController {
 
   @GetMapping
   public List<ProductDTO> getProducts(){
+    System.out.println("Hello Products API");
     List<ProductDTO> productList = iProductService.getProducts();
     return productList;
   }

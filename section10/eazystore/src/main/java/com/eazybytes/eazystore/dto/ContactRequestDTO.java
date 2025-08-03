@@ -4,17 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.time.Instant;
 
 @Getter
 @Setter
-public class ContactDTO {
+public class ContactRequestDTO {
   private String name;
   private String email;
-  private BigDecimal mobileNumber;
-  private Integer message'
-    \
-    \';
-  private String imageUrl;
-  private Instant createdAt;
+  private String mobileNumber;
+  private String message;
 }

@@ -1,30 +1,37 @@
 package com.eazybytes.eazystore.service.impl;
 
-import com.eazybytes.eazystore.dto.ProductDTO;
-import com.eazybytes.eazystore.entity.Product;
-import com.eazybytes.eazystore.repository.ProductRepository;
-import com.eazybytes.eazystore.service.IProductService;
+import com.eazybytes.eazystore.dto.ContactRequestDTO;
+import com.eazybytes.eazystore.entity.Contact;
+import com.eazybytes.eazystore.repository.ContactRepository;
+import com.eazybytes.eazystore.service.IContactService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.stream.Collectors;
+import java.time.Instant;
+
 
 @Service
 @RequiredArgsConstructor
-public class ProductServiceImpl implements IProductService {
-  private final ProductRepository productRepository;
-  @Override
-  public List<ProductDTO> getProducts() {
-    return productRepository.findAll().stream()
-        .map(this::transformToDTO).collect(Collectors.toList());
-  }
+public class ContactServiceImpl implements IContactService {
+  private final ContactRepository contactRepository;
 
-  private ProductDTO transformToDTO(Product product){
-    ProductDTO productDTO = new ProductDTO();
-    BeanUtils.copyProperties(product, productDTO);
-    productDTO.setProductId(product.getId());
-    return productDTO;
+  @Override
+  public boolean saveContact(ContactRequestDTO contactRequestDTO) {
+    try{
+      Contact contact = transformToEntity(contactRequestDTO);
+      contact.setCreatedAt(Instant.now());
+      contact.setCreatedBy(contactRequestDTO.getName());
+      contactRepository.save(contact);
+      return true;
+    } catch (Exception e) {
+      System.out.println("Error is "+ e);
+      return false;
+    }
+  }
+  private Contact transformToEntity(ContactRequestDTO contactRequestDTO){
+    Contact contact = new Contact();
+    BeanUtils.copyProperties(contactRequestDTO, contact);
+    return  contact;
   }
 }

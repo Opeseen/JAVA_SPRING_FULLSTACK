@@ -180,13 +180,13 @@ const Header = () => {
                           </li>
                         )}
                         <li>
-                          <Link
-                            to="/home"
+                          <button
                             onClick={handleLogout}
                             className={dropdownLinkClass}
+                            type="button"
                           >
                             Logout
-                          </Link>
+                          </button>
                         </li>
                       </ul>
                     </div>

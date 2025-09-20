@@ -21,12 +21,11 @@ import ProductDetail from "./components/ProductDetail.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import { CartProvider } from "./store/CartContext.jsx";
 import { AuthProvider } from "./store/AuthContext.jsx";
-import {
-  loginAction,
-  registerAction,
+import { loginAction, registerAction } from "./services/AuthAction.js";
+import Profile, {
   profileAction,
-} from "./services/AuthAction.js";
-import Profile, { profileLoader } from "./components/Profile.jsx";
+  profileLoader,
+} from "./components/Profile.jsx";
 import Orders from "./components/Orders.jsx";
 import AdminOrders from "./components/admin/AdminOrders.jsx";
 import Messages from "./components/admin/Messages.jsx";

@@ -1,5 +1,6 @@
 package com.eazybytes.eazystore.security;
 
+import com.eazybytes.eazystore.filter.JWTTokenValidatorFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,6 +22,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.password.HaveIBeenPwnedRestApiPasswordChecker;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
 import java.util.List;
 
@@ -40,9 +42,10 @@ public class EazyStoreSecurityConfig {
         .authorizeHttpRequests((request) -> {
           publicPaths.forEach(path -> request.requestMatchers(path).permitAll());
           request.anyRequest().authenticated();
-    });
-    http.formLogin(withDefaults());
-    http.httpBasic(withDefaults());
+        })
+        .addFilterBefore(new JWTTokenValidatorFilter(publicPaths), BasicAuthenticationFilter.class)
+        .formLogin(withDefaults())
+        .httpBasic(withDefaults());
     return http.build();
   }
 

@@ -8,8 +8,9 @@ export default function ProtectedRoute() {
 
   // useEffect to navigate the user to the protected route they were going to b4 they were logged in
   useEffect(() => {
+    const skipRedirect = sessionStorage.getItem("skipRedirectPath") === true;
     // check if they were not authenticated b4 and the route they wanna access b4 was not the logged in route
-    if (!isAuthenticated && location.pathname !== "/login") {
+    if (!isAuthenticated && location.pathname !== "/login" && !skipRedirect) {
       // store to the session storage so the info will be cleared when the user closes the browser
       sessionStorage.setItem("redirectPath", location.pathname);
     }

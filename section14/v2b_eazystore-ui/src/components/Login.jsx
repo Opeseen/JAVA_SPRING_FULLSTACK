@@ -23,7 +23,9 @@ export default function Login() {
     if (actionData?.success) {
       loginSuccess(actionData.jwtToken, actionData.user);
       sessionStorage.removeItem("redirectPath"); // remove the redirect path from the session storage before navigating to the from path
-      navigate(from);
+      setTimeout(() => {
+        navigate(from);
+      }, 1000);
     } else if (actionData?.errors) {
       toast.error(actionData.errors.message || "Login failed");
     }
